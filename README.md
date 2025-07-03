@@ -14,11 +14,17 @@ Build SVM models using both linear and RBF kernels to classify tumors as maligna
 - PCA for visualization
 
 ## Steps Performed
-1. Preprocessed data: encoded target, scaled features.
-2. Trained linear & RBF kernel SVMs.
-3. Tuned hyperparameters using GridSearchCV.
-4. Visualized decision boundary using PCA.
-5. Evaluated using classification report and cross-validation.
+Step 1 : Import the Libraries 📌
+ <br/> **Libraries** : [pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/), [sklearn](https://scikit-learn.org/stable/) and [google.colab](https://colab.research.google.com/notebooks/io.ipynb) <br/>
+(this **google.colab** can only be used within Google Colab enivronment and it helps in uploading files from your local file system) <br/> <br/>
+Step 2: Load and Prepare Dataset 📂  <br/> <br/>
+Step 3: Feature Scaling and Data Splitting 📊 <br/> <br/>
+Step 4: Train and Evaluate Linear SVM 🔍 <br/> <br/>
+Step 5: Train and Tune RBF SVM with GridSearchCV 🎓🏋️‍♂️📚💪 <br/> <br/>
+Step 6: PCA and Decision Boundary Plotting 📈 <br/> <br/>
+Step 7: Decision Boundary Function ⚙️ƒ🛠️🦾 <br/> <br/>
+Step 8: Cross-Validation 🔁 <br/> <br/>
+Step 9: Final Execution Pipeline 🚀 <br/> <br/>
 
 ## Sample Results
 - Linear SVM Accuracy: ~96%
@@ -33,6 +39,8 @@ SVM with RBF kernel gives better classification performance on this medical data
 
 OUTPUT
 
-![Screenshot 2025-07-03 145309](https://github.com/user-attachments/assets/9a7a1e71-e02e-4125-a203-5c8765f8ce41)
+![image](https://github.com/user-attachments/assets/324a3c17-a953-4b74-b9ab-1a83328c8eea)
+<br/>
 
-![Screenshot 2025-07-03 145335](https://github.com/user-attachments/assets/1f710c64-a327-4bd8-a752-5b9e34a743ba)
+![image](https://github.com/user-attachments/assets/c702ba0a-67f0-4a15-aa23-e18374f30ba6)
+
