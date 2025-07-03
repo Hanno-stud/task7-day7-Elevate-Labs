@@ -37,7 +37,7 @@ Step 9: Final Execution Pipeline 🚀 <br/> <br/>
 ## Conclusion
 SVM with RBF kernel gives better classification performance on this medical dataset after hyperparameter tuning.
 
-OUTPUT
+## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/324a3c17-a953-4b74-b9ab-1a83328c8eea)
 <br/>
